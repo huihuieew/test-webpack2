@@ -2,6 +2,7 @@
   <img alt="Vue logo" src="./assets/logo.png" />
   <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
   <div>hello</div>
+  <div class="test-class text-blue">class</div>
 </template>
 
 <script>
@@ -23,5 +24,12 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+.test-class {
+  margin: 1em;
+  position: relative;
+  height: 20px;
+  width: 100px;
+  color: skyblue;
 }
 </style>
